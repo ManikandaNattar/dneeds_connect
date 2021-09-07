@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".Fragment.MyServiceFrag">
+
+    <!--<ImageView
+        android:id="@+id/addSerIV"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:gravity="right"
+        android:background="@drawable/addcircle"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text="Add Service"
+        android:layout_marginLeft="10dp"
+        android:layout_marginBottom="10dp"/>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/newServiceRecycle"/>
+
+    <TextView
+        android:layout_below="@id/newServiceRecycle"
+        android:layout_marginTop="10dp"
+        android:id="@+id/noitemTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="NoService !!"
+        android:visibility="gone"
+        android:textSize="17dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/add"
+        android:tooltipText="Add service"
+        android:layout_alignParentBottom="true"
+        app:backgroundTint="@color/colorPrimaryDark"
+        android:layout_gravity="left"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30dp"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/about"
+            android:title="About us"/>
+        <item
+            android:id="@+id/terms"
+            android:icon="@drawable/tc"
+            android:title="Terms and Conditions"/>
+        <item
+            android:id="@+id/policy"
+            android:icon="@drawable/tc"
+            android:title="Privacy Policy"/>
+        <item
+            android:id="@+id/faq"
+            android:icon="@drawable/question"
+            android:title="FAQ"/>
+        <item
+            android:id="@+id/changePWD"
+            android:icon="@drawable/edit_pencil"
+            android:title="Change Password"/>
+    </group>
+
+    <item android:title="Support">
+        <menu>
+            <item
+                android:id="@+id/supportmobile"
+                android:icon="@drawable/mobile"
+                android:title="+91 7358371402
+"/>
+            <item
+                android:id="@+id/supportemail"
+                android:icon="@drawable/send"
+                android:title="support-complaints@dneeds.in"/>
+        </menu>
+    </item>
+
+   <group android:checkableBehavior="single"
+       android:id="@+id/rateus">
+
+
+       <View android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="#000000"/>
+       <item
+           android:id="@+id/activities"
+           android:icon="@drawable/order"
+           android:title="Service Activites"/>
+    <item
+        android:id="@+id/rateus1"
+        android:icon="@drawable/getstart"
+        android:title="Rate Us"/>
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/edit_pencil"
+        android:title="Feedback"/>
+
+   </group>
+
+</menu>

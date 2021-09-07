@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/navigation">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:weightSum="2"
+            android:layout_marginLeft="0dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_weight="1.8"
+                android:layout_marginTop="10dp"
+                android:text="DNeeds"
+                android:gravity="center"
+                android:textSize="17dp"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"/>
+
+           <!-- <FrameLayout
+                android:id="@+id/cartItems_navigation"
+                android:layout_marginTop="4dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="6dp"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@drawable/cart"
+                    android:layout_width="22dp"
+                    android:layout_height="24dp"/>
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="22dp"
+                    android:layout_marginLeft="14sp"
+                    android:paddingBottom="10dp"
+                    android:src="@drawable/notification_yellow_circle"/>
+                <TextView
+                    android:id="@+id/user_order_notification"
+                    android:layout_marginLeft="21dp"
+                    android:textColorHint="#000000"
+                    android:textSize="8sp"
+                    android:textColor="@color/cccblack"
+                    android:hint="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </FrameLayout>-->
+
+            <ImageView
+                android:id="@+id/logout"
+                android:layout_marginTop="13dp"
+                android:layout_width="23dp"
+                android:layout_height="23dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/ic_loginn"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2">
+
+
+        <FrameLayout
+            android:layout_weight="1.8"
+            android:id="@+id/frame_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:animateLayoutChanges="true">
+
+        </FrameLayout>
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_weight="0.2"
+            android:id="@+id/bottom_navigation"
+            android:layout_width="match_parent"
+            android:background="@color/light_silver"
+            app:itemIconTint="@color/colorPrimaryDark"
+            app:itemTextColor="@color/colorPrimaryDark"
+            android:layout_height="0dp"
+            app:menu="@menu/bottom_navig"/>
+
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

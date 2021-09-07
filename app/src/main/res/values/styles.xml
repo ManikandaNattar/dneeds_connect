@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:fontFamily">@font/vgarounded</item>
+    </style>
+
+    <style name="navigation" parent="Theme.AppCompat.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#57c4c3</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:textViewStyle">@style/textview</item>
+    </style>
+
+    <style name="edittext">
+        <item name="android:paddingLeft">6dp</item>
+        <item name="android:textSize">16dp</item>
+        <item name="android:layout_height">45dp</item>
+
+        
+    </style>
+
+    <style name="textview">
+        <item name="android:layout_marginBottom">3dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textSize">12dp</item>
+    </style>
+
+
+    <style name="Theme.AppCompat.Transparent.NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@color/grey</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+</resources>

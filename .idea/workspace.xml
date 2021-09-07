@@ -1,0 +1,485 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="verbose" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+    <option name="TOOL_WINDOW_REGEXP_FILTER" value="false" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="798bbf78-c920-4425-aa95-0649af03fc97" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Fragment/FilePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/CategoryImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/ProfilrImageData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/ProfilrImageUploadResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/updateResponse/ProfilePicResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/drawable/ic_baseline_add_photo_alternate_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Fragment/FilePath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/CategoryImage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/ProfilrImageData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/ProfilrImageUploadResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/updateResponse/ProfilePicResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_baseline_add_photo_alternate_24.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/release/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/release/output-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/SignupName.java" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/SignupName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/Signupaddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/Signupaddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/Tracking_service.java" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/Tracking_service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/Verification.java" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/Verification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Adapter/ServiceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Adapter/ServiceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Fragment/ProfileFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Fragment/ProfileFrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/Loginresponse/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/Loginresponse/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/SignupResponse/User_details.java" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/SignupResponse/User_details.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/UserDetail/User_details.java" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/UserDetail/User_details.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/getAllServiceRes/Assigned_services.java" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/getAllServiceRes/Assigned_services.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/updateResponse/Updated_details.java" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/updateResponse/Updated_details.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Preference/Preference.java" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/java/com/DailyNeeds/dailyneeds/Preference/Preference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/drawable/ic_gps.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/drawable/ic_gps.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/layout/activity_signup_name.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/layout/activity_signup_name.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/layout/activity_signupaddress.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/layout/activity_signupaddress.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/layout/activity_tracking_service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/layout/activity_tracking_service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/layout/activity_tracking_service_two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/layout/activity_tracking_service_two.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/layout/list_service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/layout/list_service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/layout/nav_header_user_home_page_navigation_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/layout/nav_header_user_home_page_navigation_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/layout/serviceadapter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/app/src/main/res/layout/serviceadapter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/DailyNeedsone/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DailyNeedsone/dailyneedsvendor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/dailyneeds_vendor_app_2021_06_25.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/dailyneeds_vendor_app_2021_07_03.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/dailyneeds_vendor_app_2021_07_04.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/dailyneeds_vendor_app_2021_07_04_v1.apk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/release/output-metadata.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/release/output-metadata.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/SignupName.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/SignupName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/Signupaddress.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/Signupaddress.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/Tracking_service.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/Tracking_service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/Verification.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Activity/Verification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Adapter/ServiceAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Adapter/ServiceAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Fragment/ProfileFrag.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Fragment/ProfileFrag.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ApiClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ApiClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/Loginresponse/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/Loginresponse/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/SignupResponse/User_details.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/SignupResponse/User_details.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/UserDetail/User_details.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/UserDetail/User_details.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/getAllServiceRes/Assigned_services.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/getAllServiceRes/Assigned_services.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/updateResponse/Updated_details.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/NetworkCall/ResModel/updateResponse/Updated_details.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Preference/Preference.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Preference/Preference.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_gps.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ic_gps.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_signup_name.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_signup_name.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_signupaddress.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_signupaddress.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tracking_service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tracking_service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_tracking_service_two.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_tracking_service_two.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_profile.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/list_service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/list_service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_user_home_page_navigation_drawer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/nav_header_user_home_page_navigation_drawer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/serviceadapter.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/serviceadapter.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dailyneedsvendor" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[63d7eacc]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="DailyNeeds" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="DailyNeeds" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="DailyNeeds" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="C:\Users\suraj\AndroidStudioProjects\DailyNeedsone\keystorefile.jks" />
+    <option name="KEY_ALIAS" value="Dailyneeds" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+    <option name="BUILD_TARGET_KEY" value="apk" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="DailyNeeds/invalid/Java-Gradle" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectId" id="1matYoltc5u9AciJJXaPEwtfnhg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="DailyNeeds.app" />
+    <property name="BundleExportedModule" value="DailyNeeds.app" />
+    <property name="DEBUGGABLE_DEVICE" value="xiaomi-redmi_note_6_pro-63d7eacc" />
+    <property name="DEBUGGABLE_PROCESS" value="com.DailyNeeds.dailyneeds" />
+    <property name="DEBUGGER_ID" value="Java" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="Pixel_XL_API_22" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2021-09-02T07:44:18.601Z" />
+    <property name="ExportApk.ApkPath" value="C:\Users\suraj\AndroidStudioProjects\DailyNeedsone\app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="ExportApk.SignV1" value="true" />
+    <property name="ExportApk.SignV2" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="false" />
+    <property name="android-custom-viewC:/Users/suraj/.gradle/caches/modules-2/files-2.1/de.hdodenhof/circleimageview/3.1.0/e5635e59d66b172f3e99c6a7044dc9535c95d180/circleimageview-3.1.0-sources.jar!/de/hdodenhof/circleimageview/CircleImageView.java_SELECTED" value="CircleImageView" />
+    <property name="android-custom-viewC:/Users/suraj/AppData/Local/Android/Sdk/sources/android-30/android/widget/EditText.java_SELECTED" value="EditText" />
+    <property name="android-custom-viewC:/Users/suraj/AppData/Local/Android/Sdk/sources/android-30/android/widget/ImageView.java_SELECTED" value="ImageView" />
+    <property name="android-custom-viewC:/Users/suraj/AppData/Local/Android/Sdk/sources/android-30/android/widget/RadioButton.java_SELECTED" value="RadioButton" />
+    <property name="android-custom-viewC:/Users/suraj/AppData/Local/Android/Sdk/sources/android-30/android/widget/TextView.java_SELECTED" value="TextView" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-previewC:/Users/suraj/.gradle/caches/modules-2/files-2.1/de.hdodenhof/circleimageview/3.1.0/e5635e59d66b172f3e99c6a7044dc9535c95d180/circleimageview-3.1.0-sources.jar!/de/hdodenhof/circleimageview/CircleImageView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/suraj/AppData/Local/Android/Sdk/sources/android-30/android/widget/EditText.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/suraj/AppData/Local/Android/Sdk/sources/android-30/android/widget/ImageView.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/suraj/AppData/Local/Android/Sdk/sources/android-30/android/widget/RadioButton.java_selected" value="Custom views" />
+    <property name="multi-representation-previewC:/Users/suraj/AppData/Local/Android/Sdk/sources/android-30/android/widget/TextView.java_selected" value="Custom views" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.do.not.copy.http.proxy.settings.to.gradle" value="true" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.-2063510834">
+      <recent name="com.DailyNeeds.dailyneeds.Activity" />
+    </key>
+    <key name="android.template.1329383547">
+      <recent name="com.DailyNeeds.dailyneeds" />
+    </key>
+    <key name="android.template.-1693617144">
+      <recent name="com.DailyNeeds.dailyneeds.Activity" />
+    </key>
+    <key name="android.template.-1414048684">
+      <recent name="com.DailyNeeds.dailyneeds.Activity" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\suraj\AndroidStudioProjects\DailyNeedsone\app" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.DailyNeeds.dailyneeds.Fragment" />
+      <recent name="com.DailyNeeds.dailyneeds.Activity" />
+    </key>
+    <key name="android.template.-1373687922">
+      <recent name="com.DailyNeeds.dailyneeds.Activity" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="DailyNeeds.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DailyNeedsone [signingReport]" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\xvalueandroid\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="798bbf78-c920-4425-aa95-0649af03fc97" name="Default Changelist" comment="" />
+      <created>1609743579847</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1609743579847</updated>
+    </task>
+    <task id="LOCAL-00001" summary="disable ph no in profile">
+      <created>1610944422228</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610944422228</updated>
+    </task>
+    <task id="LOCAL-00002" summary="playstore 1.14 commit">
+      <created>1611916153182</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1611916153182</updated>
+    </task>
+    <task id="LOCAL-00003" summary="playstore 1.15 commit and Fixed the call crash">
+      <created>1612330099947</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1612330099947</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="disable ph no in profile" />
+    <MESSAGE value="playstore 1.14 commit" />
+    <MESSAGE value="playstore 1.15 commit and Fixed the call crash" />
+    <option name="LAST_COMMIT_MESSAGE" value="playstore 1.15 commit and Fixed the call crash" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="450" y="159" key="#app" timestamp="1626242370378">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="450" y="159" key="#app/0.0.1500.1000@0.0.1500.1000" timestamp="1626242370378" />
+    <state x="536" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1630994538834">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="536" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1500.1000@0.0.1500.1000" timestamp="1630994538834" />
+    <state x="444" y="140" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1625331181466">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="444" y="140" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1625331181466" />
+    <state x="609" y="214" key="AndroidProcessChooserDialog" timestamp="1631010198129">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="555" y="156" key="AndroidProcessChooserDialog/0.0.1366.728@0.0.1366.728" timestamp="1624592997556" />
+    <state x="609" y="214" key="AndroidProcessChooserDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1631010198128" />
+    <state x="536" y="187" key="FileChooserDialogImpl" timestamp="1630909796731">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="488" y="136" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1625325957134" />
+    <state x="536" y="187" key="FileChooserDialogImpl/0.0.1500.1000@0.0.1500.1000" timestamp="1630909796731" />
+    <state width="1500" height="277" key="GridCell.Tab.0.bottom" timestamp="1631040303789">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state width="1306" height="360" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1625320789817" />
+    <state width="1500" height="277" key="GridCell.Tab.0.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1631040303789" />
+    <state width="1500" height="277" key="GridCell.Tab.0.center" timestamp="1631040303789">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state width="1306" height="360" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1625320789817" />
+    <state width="1500" height="277" key="GridCell.Tab.0.center/0.0.1500.1000@0.0.1500.1000" timestamp="1631040303789" />
+    <state width="1500" height="277" key="GridCell.Tab.0.left" timestamp="1631040303788">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state width="1306" height="360" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1625320789817" />
+    <state width="1500" height="277" key="GridCell.Tab.0.left/0.0.1500.1000@0.0.1500.1000" timestamp="1631040303788" />
+    <state width="1500" height="277" key="GridCell.Tab.0.right" timestamp="1631040303789">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state width="1306" height="360" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1625320789817" />
+    <state width="1500" height="277" key="GridCell.Tab.0.right/0.0.1500.1000@0.0.1500.1000" timestamp="1631040303789" />
+    <state width="1500" height="275" key="GridCell.Tab.1.bottom" timestamp="1631031330271">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state width="1500" height="275" key="GridCell.Tab.1.bottom/0.0.1500.1000@0.0.1500.1000" timestamp="1631031330271" />
+    <state width="1500" height="275" key="GridCell.Tab.1.center" timestamp="1631031330270">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state width="1500" height="275" key="GridCell.Tab.1.center/0.0.1500.1000@0.0.1500.1000" timestamp="1631031330270" />
+    <state width="1500" height="275" key="GridCell.Tab.1.left" timestamp="1631031330270">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state width="1500" height="275" key="GridCell.Tab.1.left/0.0.1500.1000@0.0.1500.1000" timestamp="1631031330270" />
+    <state width="1500" height="275" key="GridCell.Tab.1.right" timestamp="1631031330271">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state width="1500" height="275" key="GridCell.Tab.1.right/0.0.1500.1000@0.0.1500.1000" timestamp="1631031330271" />
+    <state x="200" y="229" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1626094229705">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="200" y="229" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1500.1000@0.0.1500.1000" timestamp="1626094229705" />
+    <state x="447" y="341" key="edit.logcat.filter.dialog.dimensions" timestamp="1630910874540">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="447" y="341" key="edit.logcat.filter.dialog.dimensions/0.0.1500.1000@0.0.1500.1000" timestamp="1630910874540" />
+    <state x="452" y="176" width="721" height="734" key="find.popup" timestamp="1631040658288">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="412" y="128" width="656" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1625328784197" />
+    <state x="452" y="176" width="721" height="734" key="find.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1631040658288" />
+    <state x="453" y="255" key="refactoring.ChangeSignatureDialog" timestamp="1627313084236">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="453" y="255" key="refactoring.ChangeSignatureDialog/0.0.1500.1000@0.0.1500.1000" timestamp="1627313084236" />
+    <state x="404" y="227" key="run.anything.popup" timestamp="1631032055284">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="404" y="227" key="run.anything.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1631032055284" />
+    <state x="26" y="218" width="672" height="678" key="search.everywhere.popup" timestamp="1630334648392">
+      <screen x="0" y="0" width="1500" height="1000" />
+    </state>
+    <state x="26" y="218" width="672" height="678" key="search.everywhere.popup/0.0.1500.1000@0.0.1500.1000" timestamp="1630334648392" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Service/FirebasePushNotificationService.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/DailyNeeds/dailyneeds/Service/FirebasePushNotificationService.java</url>
+          <line>187</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

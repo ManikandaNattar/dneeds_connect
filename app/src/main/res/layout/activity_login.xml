@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.Login">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DNeeds Partner Login"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter your login details to \n access your account"
+            android:textSize="22dp"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+
+        <LinearLayout
+            android:layout_marginTop="90dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:textSize="19sp"
+                android:inputType="textEmailAddress"
+                android:background="@android:color/transparent"
+                android:hint="Email  /  Mobile No"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:textColor="@color/gradient_2"
+                android:textColorHint="#85595858"
+                 />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gradient_2" />
+
+             <com.google.android.material.textfield.TextInputLayout
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 app:passwordToggleEnabled="true"
+                 android:layout_marginTop="20dp">
+
+                 <com.google.android.material.textfield.TextInputEditText
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"
+                     android:hint="Password"
+                     android:fontFamily="sans-serif-medium"
+                     android:textSize="19sp"
+                     android:imeOptions="actionDone"
+                     android:inputType="textPassword"
+                     android:id="@+id/password"/>
+<!--                 <ImageView-->
+
+<!--                     android:id="@+id/gps"-->
+<!--                     android:layout_width="50dp"-->
+<!--                     android:layout_height="34dp"-->
+<!--                     android:layout_marginLeft="330dp"-->
+<!--                     android:layout_marginTop="20dp"-->
+<!--                     android:background="@drawable/rounded_button"-->
+<!--                     android:visibility="visible"-->
+<!--                     android:src="@drawable/ic_gps" />-->
+
+
+             </com.google.android.material.textfield.TextInputLayout>
+<!--                <androidx.appcompat.widget.AppCompatEditText-->
+<!--                    android:id="@+id/signAddr1"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginTop="28dp"-->
+<!--                    android:background="@android:color/transparent"-->
+<!--                    android:hint="Address "-->
+<!--                    android:nextFocusDown="@id/signcity"-->
+<!--                    android:imeOptions="actionNext"-->
+<!--                    android:maxLines="3"-->
+<!--                    android:visibility="gone"-->
+<!--                    android:text=""-->
+<!--                    android:textColor="@color/gradient_2"-->
+<!--                    android:textColorHint="#72595858"-->
+<!--                    android:textSize="21dp" />-->
+<!--                <View-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="1dp"-->
+<!--                    android:background="@color/grey" />-->
+
+          <!--  <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="29dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:background="@android:color/transparent"
+                android:hint="Password"
+                android:textSize="19sp"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:textColor="@color/gradient_2"
+                android:textColorHint="#85595858"
+                 />-->
+
+          <!--  <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gradient_2" />-->
+
+        </LinearLayout>
+
+
+            <LinearLayout
+            android:id="@+id/loginLT"
+            android:layout_width="300dp"
+            android:layout_height="38dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rounded_button"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="LOGIN NOW"
+                android:textColor="#ffffff"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+           <!-- <TextView
+                android:id="@+id/vendorTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Vendor is not activated !!"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="15dp"
+                android:textColor="@color/pharm_back_color"
+                android:gravity="center"
+                android:visibility="gone"
+                android:layout_marginTop="30dp"
+                android:textStyle="italic"
+                />-->
+
+            <TextView
+                android:id="@+id/otptv"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:hint="Login with OTP"
+                android:textColor="@color/pharm_back_color"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:id="@+id/forgetTV"
+                android:layout_width="match_parent"
+                android:layout_height="28dp"
+                android:layout_marginTop="30dp"
+                android:gravity="center"
+                android:hint="Forgot Password ?"
+                android:textColor="@color/pharm_back_color"
+                android:textColorHint="@color/colorPrimary"
+                android:textSize="16dp"
+                android:textStyle="italic" />
+
+             <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account?"
+                android:textColor="#C4333333"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/signupTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Signup"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp"
+                android:layout_marginLeft="12dp"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

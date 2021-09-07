@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Gradle: com.koushikdutta.ion:ion:2.1.8@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7364f216028e763c23bd3004450f212e/jetified-ion-2.1.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7364f216028e763c23bd3004450f212e/jetified-ion-2.1.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/7364f216028e763c23bd3004450f212e/jetified-ion-2.1.8/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/60b01a491fe04ec5b3848013944ae6ab/jetified-ion-2.1.8/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da7e55bed6ba9a8737763cc19fcd78ce/jetified-ion-2.1.8/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da7e55bed6ba9a8737763cc19fcd78ce/jetified-ion-2.1.8/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/da7e55bed6ba9a8737763cc19fcd78ce/jetified-ion-2.1.8/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.koushikdutta.ion/ion/2.1.8/d3f80a38bb766b09a176855fd8f55e11303c7286/ion-2.1.8-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.koushikdutta.ion/ion/2.1.8/3078e96b8b2ff75a1e0a78c192546441891a5010/ion-2.1.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

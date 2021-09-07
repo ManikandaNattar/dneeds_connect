@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <TextView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:contentDescription="nav_header_desc"
+        android:text="DNeeds"
+        android:textColor="@color/white"
+        android:textSize="21dp"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/dname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="Name"
+        android:textSize="17dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/demail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="user@gmail.com"/>
+    <TextView
+        android:id="@+id/dvendorId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:text="vendor id"/>
+
+</LinearLayout>

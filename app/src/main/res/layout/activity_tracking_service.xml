@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Activity.Tracking_service">
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/Back"
+            android:layout_width="0dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="13dp"
+            android:layout_weight=".3"
+            android:src="@drawable/white_back_arrow" />
+
+        <TextView
+            android:id="@+id/headertitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11sp"
+            android:layout_weight="1"
+            android:text="Track"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+      <!--  <ImageView
+
+            android:id="@+id/trackgps"
+           android:layout_margin="15dp"
+            android:src="@drawable/ic_gps"
+            android:layout_width="25dp"
+            android:layout_height="25dp"/>-->
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/scrollinear"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+        <RelativeLayout
+            android:layout_below="@+id/toolbar"
+            android:id="@+id/parentRelativeLT"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Service Tracking "
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:id="@+id/servicetrack"
+        android:layout_margin="10dp"
+        android:textColor="@color/red"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/toolbar"
+        android:layout_toRightOf="@+id/servicetrack"
+        android:id="@+id/call"
+        android:layout_marginLeft="150dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/mobile"/>
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/toolbar"
+        android:layout_toRightOf="@+id/call"
+        android:id="@+id/track"
+        android:layout_marginLeft="25dp"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/rounded_button"
+        android:src="@drawable/ic_gps"/>
+
+
+
+    <com.kofigyan.stateprogressbar.StateProgressBar
+        android:layout_below="@id/servicetrack"
+        android:layout_margin="10dp"
+        android:id="@+id/your_state_progress_bar_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:spb_currentStateNumber="two"
+        app:spb_maxStateNumber="three"
+        app:spb_stateBackgroundColor="#BDBDBD"
+        app:spb_stateForegroundColor="#009688"
+        app:spb_stateNumberBackgroundColor="#808080"
+        app:spb_stateNumberForegroundColor="@color/green"
+        app:spb_currentStateDescriptionColor="#009688"
+        app:spb_stateDescriptionColor="#808080"
+        app:spb_animateToCurrentProgressState="true"
+        app:spb_checkStateCompleted="true" />
+
+      <LinearLayout
+          android:id="@+id/cancelLT"
+          android:layout_below="@+id/your_state_progress_bar_id"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:orientation="horizontal"
+         >
+
+          <LinearLayout
+              android:id="@+id/CompleteLT"
+              android:layout_width="150dp"
+              android:layout_height="25dp"
+              android:layout_marginLeft="30dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="10dp"
+              android:background="@drawable/rounded_button"
+              android:gravity="center"
+              android:orientation="vertical">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:text="Complete Service"
+                  android:textColor="#ffffff"
+                  android:textSize="15sp"
+                  android:textStyle="bold" />
+
+          </LinearLayout>
+
+          <LinearLayout
+              android:id="@+id/cancelServcieLT"
+              android:layout_width="150dp"
+              android:layout_height="25dp"
+              android:layout_marginLeft="20dp"
+              android:layout_marginTop="10dp"
+              android:layout_marginBottom="10dp"
+              android:background="@drawable/rounded_button"
+              android:gravity="center"
+              android:orientation="vertical">
+
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:gravity="center"
+                  android:text="Cancel Service"
+                  android:textColor="#ffffff"
+                  android:textSize="15sp"
+                  android:textStyle="bold" />
+
+          </LinearLayout>
+
+      </LinearLayout>
+
+
+
+    <TextView
+        android:id="@+id/subService"
+        android:layout_below="@+id/cancelLT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sub Services "
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/red"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+
+        android:layout_below="@+id/subService"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:id="@+id/recycleSubService"/>
+
+    <TextView
+        android:layout_below="@+id/recycleSubService"
+        android:id="@+id/successfulTV"
+        android:visibility="gone"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Service Completed Successfully !! "
+        android:gravity="center"
+        android:textColor="@color/red"
+        android:textSize="16dp"
+        android:textStyle="bold"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_below="@+id/successfulTV"
+    android:id="@+id/userDetailLT">
+
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:id="@+id/username"/>
+
+    <!--<TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile"
+        android:id="@+id/usermobile"/>
+-->
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:id="@+id/useraddress"/>
+
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pincode"
+        android:visibility="gone"
+        android:id="@+id/userpincode"/>
+
+
+</LinearLayout>
+
+            <LinearLayout
+                android:layout_below="@+id/userDetailLT"
+                android:id="@+id/chatLT"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:background="@drawable/redborder"
+                android:layout_height="200dp">
+
+                  <TextView
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="Chat "
+                      android:textColor="@color/red"
+                      android:textSize="16dp"
+                      android:textStyle="bold"/>
+              <!--  <EditText
+                    android:id="@+id/kb_holder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:visibility="gone" />-->
+
+
+                <WebView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:focusable="true"
+                    android:focusableInTouchMode="true"
+                    android:id="@+id/trackChat"/>
+
+            </LinearLayout>
+
+
+
+
+
+
+
+      <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/chatFab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/chat"
+        android:tooltipText="Add service"
+        android:layout_alignParentBottom="true"
+        app:backgroundTint="@color/colorPrimaryDark"
+        android:layout_gravity="left"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30dp"
+          android:visibility="visible"
+        />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

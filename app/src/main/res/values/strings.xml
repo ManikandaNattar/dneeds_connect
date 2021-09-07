@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">DNeeds connect</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_push_channel</string>
+    <string name="turn_speaker_on">Speaker ON</string>
+    <string name="callee">client identity or phone number</string>
+    <string name="answer">Answer</string>
+    <string name="decline">Decline</string>
+    <string name="callHint">Dial a client name or phone number. Leaving the field empty results in an automated response.</string>
+    <string name="incorrect_pwd">Incorrrect Password. Please try again</string>
+</resources>

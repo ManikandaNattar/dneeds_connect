@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.Verification">
+
+
+    <ImageView
+        android:id="@+id/otpback"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/arrow_for_back"
+        android:layout_width="30dp"
+        android:layout_height="25dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:textColor="#595858"
+        android:text="Verify OTP"
+        />
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="40dp"
+        android:layout_height="10dp"
+        android:layout_gravity="center"
+        android:src="@drawable/rounded_button"/>
+
+    <EditText
+        android:id="@+id/verifyEDT"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginRight="25sp"
+        android:gravity="center"
+        android:hint="Enter your OTP"
+        android:background="@drawable/redborder"/>
+
+     <Button
+         android:id="@+id/verifyBTN"
+         android:layout_marginTop="70dp"
+         android:layout_gravity="center"
+         android:layout_width="200dp"
+         android:layout_height="35dp"
+         android:text="Verify OTP"
+         android:textSize="17dp"
+         android:textStyle="bold"
+         android:textColor="@color/white"
+        android:background="@color/colorPrimary"/>
+
+
+
+    <TextView
+        android:id="@+id/resend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Resend OTP"
+        android:textColorHint="@color/colorPrimary"
+        android:textSize="16dp"
+        android:textColor="@color/pharm_back_color"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:layout_marginTop="50dp"
+        android:textStyle="italic"
+        />
+
+</LinearLayout>
