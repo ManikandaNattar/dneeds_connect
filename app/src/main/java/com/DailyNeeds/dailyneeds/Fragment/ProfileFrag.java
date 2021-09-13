@@ -274,7 +274,7 @@ public class ProfileFrag extends Fragment implements GoogleApiClient.ConnectionC
             buildGoogleApiClient();
         }
 
-        progressDialog.setContentView(R.layout.fragment_profile);
+//         progressDialog.setContentView(R.layout.fragment_profile);
         return view;
 
     }
